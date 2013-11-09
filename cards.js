@@ -19,7 +19,7 @@
 		$(".back").hide();
 	}
 	var advance = function(){
-		if(currentCardNumber < quizletData.terms.length){
+		if(currentCardNumber < quizletData.terms.length - 1){
 			currentCardNumber ++;
 			var card = $("#currentCard");
 			var firstcard = quizletData.terms[currentCardNumber];
