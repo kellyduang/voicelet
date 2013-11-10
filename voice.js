@@ -10,6 +10,10 @@ $(function(){
       }
       
       var feedbackContainer = $("#feedback");
+      var firstChild = feedbackContainer.children().first();
+      if(firstChild.html() === "Good job!"){
+        return;
+      }
       feedbackContainer.empty();
       var feedbackthing = $("<div></div>");
       feedbackContainer.append(feedbackthing);
@@ -24,10 +28,12 @@ $(function(){
           console.log("yes");
           var forwardButton = $("#goNext");
           forwardButton.click();
-          feedbackthing.html("yay");
+          feedbackthing.css({"color": "#C7F464"});
+          feedbackthing.html("Good job!");
         }
         else{
-          feedbackthing.html("Try again.");
+          feedbackthing.css({"color": "#CC333F"});
+          feedbackthing.html("Try again.  You said " + tr + ".");
         }
         
       }

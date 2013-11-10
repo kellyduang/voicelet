@@ -23,7 +23,7 @@
     font-family: Georgia;
     font-size: 3em;
     text-align: center;
-    line-height: 200px;
+    line-height: 50px;
 }
 .flip .card .front {
   position: absolute;
@@ -44,4 +44,16 @@
   background-color: white;
   padding: 4px;
   margin: 4px;
+}
+#feedback{
+  text-align: center;
+  background-color: white;
+  width: 45%;
+  left: 30%;
+  font-family: 'Sintony', sans-serif;
+    font-size: 2em;
+    color: #00ff00;
+}
+.brand{
+  font-size: 4em;
 }
