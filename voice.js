@@ -15,7 +15,7 @@ $(function(){
         return;
       }
       feedbackContainer.empty();
-      var feedbackthing = $("<div></div>");
+      var feedbackthing = $('<div class="feedbackitem"></div>');
       feedbackContainer.append(feedbackthing);
 
       
