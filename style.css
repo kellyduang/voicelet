@@ -47,8 +47,7 @@
     line-height: 40px;
     padding-top: 80px;
     padding-right: 90px;
-    padding-left: 90px;
-}
+    padding-left: 90px;}
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
     background: blue;
@@ -68,12 +67,12 @@
   margin: 4px;
 }
 #feedback{
-  min-height: 60px;
   text-align: center;
-  width: 100%;
-  font-family: 'Sintony', sans-serif;
-    font-size: 2em;
-    color: #006633;
+  font-size: 2em;
+  color: #00ff00;
+  margin: 0 auto;
+  width: 750px;
+  background-color: rgba(255,255,255,0.7);
 }
 
 .brand{
@@ -137,4 +136,16 @@
 .results{
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.logo{
+  height: 90px;
+}
+
+body{
+  font-family: "Bookman Old Style";
+}
+
+.feedbackitem{
+  margin: 30px;
 }

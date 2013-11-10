@@ -6,7 +6,7 @@ $(function(){
 			for (var i = data.sets.length - 1; i >= 0; i--) {
 			var set = data.sets[i];
 			var newThing = $('<div class = "set btn btn-default"></div>');
-			newThing.html('<a href = /set/?' + set.id + '><div class = "setTitle">'+set.title+'</div></a>');
+			newThing.html('<a href=' + location.href + 'set/?' + set.id + '><div class = "setTitle">'+set.title+'</div></a>');
 			$("#searchResults").append(newThing);
 		};
 		}
