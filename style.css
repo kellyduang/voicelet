@@ -149,3 +149,13 @@ body{
 .feedbackitem{
   margin: 30px;
 }
+
+.footer{
+  position: absolute;
+  width: 100%;
+  font-size: 30px;
+  background-color: transparent;
+  color: #FFF;
+  bottom: 0;
+  padding-bottom: 50px;
+}
