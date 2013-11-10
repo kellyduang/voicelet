@@ -86,7 +86,10 @@ var currentCardNumber = 0;
             var firstcard = quizletData.terms[currentCardNumber];
             card.children(".front").html(firstcard.definition)
             card.children(".back").html(firstcard.term)
-
+        }
+        if(currentCardNumber == (quizletData.terms.length - 1)){
+            card.children(".front").html("You've finished this set!");
+            card.children(".back").html("You've finished this set!");
         }
     }
     var devance = function(card){
