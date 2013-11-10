@@ -1,6 +1,8 @@
+
+
 .flip {
   -webkit-perspective: 800;
-   width: 700px;
+   width: 750px;
    height: 390px;
     position: relative;
     margin: 50px auto;
@@ -31,7 +33,10 @@
     background-image: url('img/slide-1.png');
     color: black;
     cursor: pointer;
-    width: 100%;
+    line-height: 40px;
+    padding-top: 80px;
+    padding-right: 90px;
+    padding-left: 90px;
 }
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
@@ -39,21 +44,55 @@
     background-image: url('img/slide-1.png');
     color: black;
     cursor: pointer;
+    line-height: 40px;
+    padding-top: 120px;
+    padding-right: 90px;
+    padding-left: 90px;
+
 }
+
 .set{
   background-color: white;
   padding: 4px;
   margin: 4px;
 }
 #feedback{
+  min-height: 60px;
   text-align: center;
-  background-color: white;
-  width: 45%;
-  left: 30%;
+  width: 100%;
   font-family: 'Sintony', sans-serif;
     font-size: 2em;
     color: #00ff00;
 }
+
 .brand{
   font-size: 4em;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+}
+
+.toggle{
+    -webkit-perspective: 800;
+   width: 750px;
+   height: 0px;
+    position: relative;
+    margin: 50px auto;
+    z-index: 4;
+}
+
+#goBack{
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 10px;
+  z-index: 5;
+}
+
+#goNext{
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 665px;
+  z-index: 5;
 }
