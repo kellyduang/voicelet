@@ -1,4 +1,15 @@
-
+.icon-zoom-in
+{
+  position:relative;
+  left:23px;
+  top:-8px;
+  z-index:999;
+}
+.input-append input
+{
+  height:30px;
+  padding-left:25px;
+}
 
 .flip {
   -webkit-perspective: 800;
@@ -95,4 +106,35 @@
   margin-top: 165px;
   margin-left: 665px;
   z-index: 5;
+}
+
+.input-group{
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 35px;
+}
+
+.icon{
+  width: 27px;
+  height: 27px;
+}
+
+.searching{
+  max-height: 30px !important;
+}
+
+.form-control{
+  height: 41px;
+}
+
+.set{
+  background-color: rgba(255,255,255,0.9);
+  display: block;
+  width: 100% !important; 
+  margin-top: 5px;
+}
+
+.results{
+  margin-left: 50px;
+  margin-right: 50px;
 }
