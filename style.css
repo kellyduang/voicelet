@@ -138,6 +138,10 @@
   margin-right: 50px;
 }
 
+.setTitle{
+  font-size: 18px;
+}
+
 .logo{
   height: 90px;
 }
@@ -151,7 +155,7 @@ body{
 }
 
 .footer{
-  position: absolute;
+  position: fixed;
   width: 100%;
   font-size: 30px;
   background-color: transparent;
