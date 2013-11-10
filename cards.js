@@ -19,7 +19,6 @@ $(function() {
             });
             return false;
         });
-    });
 
 $("#goBack").click(function() {
             var original = $(".box-a");
@@ -164,15 +163,17 @@ var currentCardNumber = 0;
 	}
 	var quizId = location.search.substring(1);
 	var setSource = "https://api.quizlet.com/2.0/sets/" + quizId + "?client_id=9FgEJUznNN&whitespace=1"
-	$.ajax({
-	url: setSource, 
-	success: render,
-	dataType: "jsonp"
+    	$.ajax({
+    	url: setSource, 
+    	success: render,
+    	dataType: "jsonp"
 
-	});
+    	});
 	var forwardButton = $("#goNext");
 	forwardButton.on("click", advance);
 	var flipButton = $("#flip");
 	flipButton.on("click", turnOver);
 	var backButton = $("#goBack");
 	backButton.on("click", devance);
+
+  });
