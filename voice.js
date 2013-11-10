@@ -21,14 +21,16 @@ $(function(){
       
       for (var i = event.resultIndex; i < event.results.length; ++i) {
         var tr = event.results[i][0].transcript;
+        tr = tr.toLowerCase();
         console.log(tr);
         var card = $("#currentCard");
         var value = card.children(".back").html();
+        value = value.toLowerCase();
         if(stringDistance(tr, value) < 3){
           console.log("yes");
           var forwardButton = $("#goNext");
           forwardButton.click();
-          feedbackthing.css({"color": "#C7F464"});
+          feedbackthing.css({"color": "#006633"});
           feedbackthing.html("Good job!");
         }
         else{
