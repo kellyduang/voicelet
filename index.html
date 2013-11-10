@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>Voicelet</title>
 
     <!-- Bootstrap core CSS -->
@@ -14,10 +13,12 @@
     <!-- Add custom CSS here -->
     <link href="css/business-casual.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="css/animate-custom.css"/>
 </head>
+
 <body>
-<div class="brand">Voicelet</div>
-<nav class="navbar navbar-default" role="navigation">
+    <div class="brand">Voicelet</div>
+    <nav class="navbar navbar-default" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -26,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Business Casual</a>
+          <a class="navbar-brand" href="index.html">Voicelet</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -41,33 +42,26 @@
       </div><!-- /.container -->
     </nav>
 
+
+    <div class="toggle">
+     <button type="button" class="btn btn-default" id="goNext"><img src="img/arrow2.png" width="50" height="50"></button>
+                 <button type="button" class="btn btn-default" id="goBack"><img src="img/arrow.png" width="50" height="50"></button>
+                
+
+    </div>
+
+<div class="box-a animated">
     <div class="flip">
         <div class="card"> 
-        <div id="currentCard">
-            <div class="face front"> 
-            </div> 
-            <div class="face back"> 
-            </div>
-            </div> 
-        </div> 
-    </div> 
-
-    <center>
-
-
             <div id="currentCard">
-              <div class="front">
-              </div>
-              <div class="back">
-              </div>
-            </div>
-    
-            <div class="btn-group btn-group-lg">
-            <button type="button" class="btn btn-default" id="goNext">Next</button>
-            <button type="button" class="btn btn-default" id="goBack">Back</button>
-            </div>
+                <div class="face front"> </div> 
+                <div class="face back"> </div>
+            </div> 
+        </div>
+    </div> 
+</div>
 
-    </center>
+   
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="cards.js"></script>
