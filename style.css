@@ -40,3 +40,8 @@
     color: black;
     cursor: pointer;
 }
+.set{
+  background-color: white;
+  padding: 4px;
+  margin: 4px;
+}

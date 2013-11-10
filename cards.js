@@ -1,3 +1,4 @@
+ $(function() {  
     $('.flip').click(function(){
         $(this).find('.card').addClass('flipped').mouseleave(function(){
             $(this).removeClass('flipped');
@@ -123,3 +124,4 @@ var currentCardNumber = 0;
 	flipButton.on("click", turnOver);
 	var backButton = $("#goBack");
 	backButton.on("click", devance);
+})
