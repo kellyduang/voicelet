@@ -1,28 +1,3 @@
-/*#currentCard{
-
-}
-.front{
-
-}
-.back{
-   display: none;
-   position: absolute; 
-   top: 190px; 
-   left: 0; 
-   width: 100%; 
-   font-size: xx-large;
-
-}
-
-.front { 
-   position: absolute; 
-   top: 190px; 
-   left: 0; 
-   width: 100%; 
-   font-size: xx-large;
-}*/
-
-
 .flip {
   -webkit-perspective: 800;
    width: 700px;

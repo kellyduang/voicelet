@@ -16,14 +16,12 @@ var recognition = new webkitSpeechRecognition();
     
     console.log(complete);
     
-    log = $("#log")[0];
-    log.innerHTML += "<p>"+ complete +"</p>"
 
   };
   
   recognition.onend = function(){
     console.log("ended");
-    recognition.start();
+
   };
   
   $("#start").on("click", function(){
