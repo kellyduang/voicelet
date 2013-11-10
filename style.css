@@ -131,11 +131,13 @@
   display: block;
   width: 100% !important; 
   margin-top: 5px;
+  overflow: hidden;
 }
 
 .results{
   margin-left: 47px;
   margin-right: 55px;
+  overflow: hidden;
 }
 
 .setTitle{
